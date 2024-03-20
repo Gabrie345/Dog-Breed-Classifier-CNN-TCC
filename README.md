@@ -1,0 +1,11 @@
+# Dog Breed Classifier CNN - TCC
+
+### No decorrer deste projeto, utilizamos **Redes Neurais Convolucionais (CNNs)** como a espinha dorsal de nossa abordagem. As CNNs, abreviação de *Convolutional Neural Networks*, são um tipo de rede neural profunda especialmente projetado para resolver desafios em visão computacional. Essas redes são altamente eficazes no reconhecimento de imagens, segmentação de objetos e detecção de características visuais. 
+
+O principal diferencial das CNNs é a aplicação da operação de convolução, que envolve o uso de kernels deslizantes sobre dados de entrada bidimensionais, como imagens. Esses filtros desempenham um papel fundamental, permitindo que a rede automaticamente identifique características significativas em diversos níveis de abstração, como bordas, texturas e padrões complexos.
+
+Essa arquitetura hierárquica e estruturada consiste em várias camadas, incluindo camadas de convolução, camadas de pooling para reduzir a dimensionalidade e camadas totalmente conectadas para a tomada de decisões finais. Permitindo que a rede aprenda e represente informações espaciais e hierárquicas de forma eficiente.
+
+Para nosso projeto, as CNNs se mostraram particularmente eficazes em tarefas de visão computacional, como o reconhecimento de objetos e raças de cães, devido à sua capacidade inerente de extrair automaticamente características relevantes das imagens. As camadas convolucionais de uma CNN são projetadas para identificar padrões visuais em diferentes escalas e níveis de abstração, tornando-as ideais para capturar nuances nas características dos cães, que são fundamentais para a classificação precisa das raças. Portanto, a escolha das CNNs desempenhou um papel essencial no sucesso deste projeto de reconhecimento de raças caninas.
+
+Nosso principal objetivo com este projeto consiste em desenvolver um modelo de reconhecimento de raças caninas robusto e altamente preciso. Para alcançar essa meta, optamos por utilizar a arquitetura da **Inception V3**, uma das redes neurais convolucionais disponíveis. A escolha da Inception V3 foi motivada pela sua habilidade em aprender representações profundamente arraigadas das características visuais. O Inception V3 apresenta uma característica crucial para o reconhecimento de raças de cães, que muitas vezes apresentam variações sutis em suas características.
